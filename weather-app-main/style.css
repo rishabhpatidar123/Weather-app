@@ -2138,3 +2138,101 @@ padding-bottom:40px;
     opacity:.9;
 
 }
+
+/* =====================================
+        MOBILE RESPONSIVE FIX
+===================================== */
+
+@media screen and (max-width:768px){
+
+body{
+    padding:15px;
+}
+
+.container{
+    width:100%;
+    padding:18px;
+    margin:10px auto;
+    border-radius:18px;
+    min-height:auto;
+}
+
+.logo{
+    font-size:2.2rem;
+}
+
+.tagline{
+    font-size:.9rem;
+}
+
+.top-bar{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.top-bar input,
+#searchBtn,
+#locationBtn{
+    width:100%;
+}
+
+#locationBtn{
+    height:50px;
+}
+
+.dashboard{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.left-panel,
+.right-panel{
+    width:100%;
+}
+
+.chart-container{
+    height:240px;
+    padding:10px;
+}
+
+#forecast{
+    grid-template-columns:1fr;
+}
+
+.details{
+    grid-template-columns:1fr;
+}
+
+#sunInfo{
+    grid-template-columns:1fr;
+}
+
+.temp{
+    font-size:55px;
+}
+
+.description{
+    font-size:24px;
+}
+
+.weather-icon{
+    width:90px;
+    height:90px;
+}
+
+.history-item{
+    width:100%;
+    text-align:center;
+}
+
+.hour-card{
+    min-width:95px;
+}
+
+.footer{
+    padding:20px 10px;
+}
+
+}
